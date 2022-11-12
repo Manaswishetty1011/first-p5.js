@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(10, 1, 70);
+    font-family: 'Lato', sans-serif;
+    color: aliceblue
+    ;
+}
+canvas{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 60px;
+    animation-name: effect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes effect{
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow: 1px 1px 38px rgb(202, 202, 202);}
+}
